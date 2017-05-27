@@ -7,7 +7,7 @@ Installation
 ------------
 
 ```sh
-npm i --save cwd-in-node-modules]
+npm i --save cwd-in-node-modules
 # or
 yarn add cwd-in-node-modules
 ```
@@ -36,6 +36,6 @@ if (isCwdInNodeModules(true)) {
 Usage CLI
 ---------
 
-```
-cwd-in-node-modules && echo "In node_modules" || echo "Not In node_modules"
+```sh
+cwd-in-node-modules && echo "YES" || echo "NO"
 ```
