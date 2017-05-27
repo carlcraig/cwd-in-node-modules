@@ -1,0 +1,17 @@
+{
+  "name": "cwd-in-node-modules",
+  "version": "1.0.0",
+  "description": "check if the current working directory is in a node_modules directory or sub directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cwd-in-node-modules": "cwd-in-node-modules.js"
+  },
+  "author": "Carl Craig <carlcraig.threeceestudios@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
